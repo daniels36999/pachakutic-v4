@@ -6,6 +6,7 @@ import react from '@vitejs/plugin-react';
 // tener que escribir el nombre del repositorio. Si prefieres una ruta
 // absoluta, usa:  base: '/NOMBRE-REPO/'
 export default defineConfig({
-  base: './',
+  //base: './',
+  base: '/',
   plugins: [react()],
 });
