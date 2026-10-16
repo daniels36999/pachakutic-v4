@@ -1,0 +1,45 @@
+/* ============================================================
+   VARIABLES — paleta, tipografía y medidas
+   Base: azul noche + blanco + grises. Los 5 colores de identidad
+   (Pachakutik) son SOLO acentos: nodos, líneas, bordes, iconos.
+   Cada color se usa una sola vez en la paleta.
+   ============================================================ */
+:root {
+  /* Base */
+  --navy: #16263f;   /* azul noche (color principal) */
+  --ink: #172033;    /* texto y pie de página */
+  --white: #ffffff;
+  --mist: #f7f9fc;
+  --cloud: #eef2f6;
+
+  /* Identidad */
+  --red: #d81119;
+  --orange: #ee8d09;
+  --green: #36a036;
+  --ice: #c0e2ed;
+  --sky: #3fa5dd;
+
+  /* Texto y líneas */
+  --text: #172033;
+  --text-soft: #4b5a70;
+  --muted: #5d6c82;
+  --line: #d3dce8;
+  --on-navy: #eaf0f8;
+  --on-navy-soft: #a8b7ce;
+  --line-navy: rgba(255, 255, 255, 0.16);
+  --rail: rgba(104, 132, 172, 0.55);
+
+  /* Tipografía */
+  --font-display: 'Bricolage Grotesque Variable', 'Segoe UI', system-ui, sans-serif;
+  --font-body: 'Instrument Sans Variable', 'Segoe UI', system-ui, sans-serif;
+  --fs-h1: clamp(2.5rem, 1.2rem + 7.4vw, 6.4rem);
+  --fs-h2: clamp(1.9rem, 1.3rem + 2.6vw, 3.1rem);
+
+  /* Medidas (mobile first; se amplían en responsive.css) */
+  --header-h: 60px;
+  --wrap-max: 1180px;
+  --padL: 44px;
+  --padR: 16px;
+  --rail-in: 18px;
+  --radius: 14px;
+}
